@@ -194,71 +194,6 @@
             
         }
 
-#contato {
-  max-width: 1000px;
-  margin: auto;
-  padding: 20px;
-  background-color: white;
-  border-radius: 0px 0px 5px 5px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  
-}
-
-#contato form {
-  display: flex;
-  flex-direction: column;
-}
-
-#contato label {
-  margin-top: 10px;
-  margin-bottom: 5px;
-  font-weight: bold;
-  color: black;
-}
-
-#contato input,
-#contato textarea {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  font-size: 1rem;
-}
-
-#contato textarea {
-  resize: none;
-  min-height: 120px;
-}
-
-#contato button {
-  margin-top: 20px;
-  padding: 12px;
-  background: #FF6B00;
-  color: #fff;
-  font-size: 1rem;
-  font-weight: bold;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-#contato button:hover {
-  background: #005ecc;
-}
-
-#contato img{
-    display: block;
-    height: auto;
-    width: 60px;
-    margin: auto;
-    margin-top: 10px;
-}
-
-#contato img:hover{
-    background-color: #fc7b1f;
-    border-radius: 50%;
-    cursor: pointer;
-}
 
  @media (max-width: 1024px) {
   header {
@@ -323,17 +258,8 @@
     width: 180px;
     padding: 15px;
   }
-
-  #contato {
-    padding: 15px;
-  }
-
-  #contato input,
-  #contato textarea,
-  #contato button {
-    font-size: 0.95rem;
-  }
-}
+ }
+  
 
 /* === TELAS PEQUENAS (CELULARES) === */
 @media (max-width: 600px) {
@@ -393,9 +319,4 @@
     padding: 10px;
   }
 
-  #contato input,
-  #contato textarea,
-  #contato button {
-    font-size: 0.9rem;
-  }
 }
